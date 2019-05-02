@@ -1,9 +1,6 @@
 
 # Query-guided End-to-End-Person-Search
 
-#TODO: Upload prwmini_test.py
-
-
 ## Abstract
 Person search has recently gained attention as the novel task of finding a person, provided as a cropped sample, from a gallery of non-cropped images, whereby several other people are also visible. We believe that i. person detection and re-identification should be pursued in a joint optimization framework and that ii. the person search should leverage the query image extensively (e.g. emphasizing unique query patterns). However, so far, no prior art realizes this. We introduce a novel query-guided end-to-end person search network (QEEPS) to address both aspects. We leverage a most recent joint detector and re-identification work, OIM. We extend this with i. a query-guided Siamese squeeze-and-excitation network (QSSE-Net) that uses global context from both the query and gallery images, ii. a query-guided region proposal network (QRPN) to produce query-relevant proposals, and iii. a query-guided similarity subnetwork (QSimNet), to learn a query-guided reidentification score. QEEPS is the first end-to-end queryguided detection and re-id network. On both the most recent CUHK-SYSU and PRW datasets, we outperform the previous state-of-the-art by a large margin.
 
@@ -17,8 +14,7 @@ Person search has recently gained attention as the novel task of finding a perso
 | QEEPS                    | 88.9          |   89.1  |
 
 ## PRW-mini
-The task of query dependent person search encompasses complexity of O(MN) during benchmarking (M queries, N gallery images). PRW dataset has 2,057 probes and 6,112 gallery images. This means, conditioning on the query requires jointly processing each [query-gallery] pair and the exhaustive evaluation of the product space, i.e. 2, 057 × 6, 112. We introduce the PRW-mini to reduce the evaluation time while maintaining the difficulty. PRW-mini tests 30 query images against the whole gallery. The 30 probes selected for PRW-mini are given in prwmini.pickle.
-This contains a list of probes in format id_camid where id and camid are defined by the original PRW dataset. 
+The task of query dependent person search encompasses complexity of O(MN) during benchmarking (M queries, N gallery images). PRW dataset has 2,057 probes and 6,112 gallery images. This means, conditioning on the query requires jointly processing each [query-gallery] pair and the exhaustive evaluation of the product space, i.e. 2, 057 × 6, 112. We introduce the PRW-mini to reduce the evaluation time while maintaining the difficulty. PRW-mini tests 30 query images against the whole gallery. The 30 probes selected for PRW-mini are given in prwmini_query_info.txt 
 
 
 ## PRW Evaluation 

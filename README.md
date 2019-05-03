@@ -1,6 +1,7 @@
 
 # Query-guided End-to-End-Person-Search
 If you are referring this work please cite:
+
 @inproceedings{munjal2019cvpr,
 author = {Munjal, Bharti and Amin, Sikandar and Tombari, Federico and Galasso, Fabio},
 title = {Query-guided End-to-End Person Search},

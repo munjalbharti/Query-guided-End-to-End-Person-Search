@@ -27,7 +27,7 @@ Person search has recently gained attention as the novel task of finding a perso
  Method                    | mAP           | top-1  |
 | -------------            |:-------------:| -----: |
 | Mask-G[2]                   | 33.1        |  70.0  |
-| QEEPS                    | 39.1         |   80  |
+| QEEPS                    | 39.1         |   80.0  |
 
 
 ## PRW-mini

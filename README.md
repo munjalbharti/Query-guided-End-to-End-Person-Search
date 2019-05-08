@@ -39,13 +39,11 @@ We evaluate on PRW with the same evaluation script (prw_test.py) as adopted by M
 
 [1] B. Munjal, S. Amin, F. Tombari, F. Galasso. Query-guided End-to-End Person Search. In The IEEE Conference on Computer Vision and     Pattern Recognition (CVPR), 2019 
    
-[2] D. Chen, S. Zhang, W. Ouyang, J. Yang, and Y. Tai. Person search via a mask-guided two-stream cnn model. In The European Conference     on Computer Vision (ECCV), 2018
+[2] D. Chen, S. Zhang, W. Ouyang, J. Yang, and Y. Tai. Person search via a mask-guided two-stream cnn model. In The European Conference on Computer Vision (ECCV), 2018
 
-[3] T. Xiao, S. Li, B. Wang, L. Lin, and X. Wang. Joint detection and identification feature learning for person search. In The IEEE
-    Conference on Computer Vision and Pattern Recognition (CVPR), 2017.
+[3] T. Xiao, S. Li, B. Wang, L. Lin, and X. Wang. Joint detection and identification feature learning for person search. In The IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2017.
 
-[4] L. Zheng, H. Zhang, S. Sun, M. Chandraker, Y. Yang, and Q. Tian. Person re-identification in the wild. In The IEEE Conference on
-    Computer Vision and Pattern Recognition (CVPR), 2017.
+[4] L. Zheng, H. Zhang, S. Sun, M. Chandraker, Y. Yang, and Q. Tian. Person re-identification in the wild. In The IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2017.
 
 
 ## RPN vs QRPN Proposals

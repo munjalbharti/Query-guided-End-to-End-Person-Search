@@ -30,16 +30,15 @@ The task of query dependent person search encompasses complexity of O(MN) during
 ## PRW Evaluation 
 We evaluate on PRW and PRW-mini with the same script as adopted by Mask-G (prw_test.py and prwmini_test.py respectively). This evaluation is motivated from CUHK-SYSU  https://github.com/ShuangLI59/person_search/tree/master/lib/datasets. Each probe image is compared to whole gallery except the probe image itself.  If you are using this evaluation for PRW please cite:
 
-[1] B. Munjal, S. Amin, F. Tombari, F. Galasso. Query-guided End-to-End Person Search. In The
-   The IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2019 
+[1] B. Munjal, S. Amin, F. Tombari, F. Galasso. Query-guided End-to-End Person Search. In The IEEE Conference on Computer Vision and         Pattern Recognition (CVPR), 2019 
    
 [2] D. Chen, S. Zhang, W. Ouyang, J. Yang, and Y. Tai. Person search via a mask-guided two-stream cnn model. In The European Conference     on Computer Vision (ECCV), 2018
 
 [3] T. Xiao, S. Li, B. Wang, L. Lin, and X. Wang. Joint detection and identification feature learning for person search. In The IEEE
     Conference on Computer Vision and Pattern Recognition (CVPR), 2017.
 
-[4] L. Zheng, H. Zhang, S. Sun, M. Chandraker, Y. Yang, and Q. Tian. Person re-identification in the wild. In The IEEE Conference
-     on Computer Vision and Pattern Recognition (CVPR), 2017.
+[4] L. Zheng, H. Zhang, S. Sun, M. Chandraker, Y. Yang, and Q. Tian. Person re-identification in the wild. In The IEEE Conference on
+    Computer Vision and Pattern Recognition (CVPR), 2017.
 
 
 ## RPN vs QRPN Proposals

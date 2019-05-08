@@ -17,11 +17,18 @@ Person search has recently gained attention as the novel task of finding a perso
 
 ![Query Guided Person Search](https://github.com/munjalbharti/Query-guided-End-to-End-Person-Search/blob/master/Network.JPG)
 
-## Results on CUHK-SYSU
+## Results on CUHK-SYSU [3]
  Method @Gallery100        | mAP           | top-1  |
 | -------------            |:-------------:| -----: |
 | Mask-G[2]                   | 83.0          |   83.7  |
 | QEEPS                    | 88.9          |   89.1  |
+
+## Results on PRW [4]
+ Method                    | mAP           | top-1  |
+| -------------            |:-------------:| -----: |
+| Mask-G[2]                   | 33.1        |  70.0  |
+| QEEPS                    | 39.1         |   80  |
+
 
 ## PRW-mini
 The task of query dependent person search encompasses complexity of O(MN) during benchmarking (M queries, N gallery images). PRW dataset has 2,057 probes and 6,112 gallery images. This means, conditioning on the query requires jointly processing each [query-gallery] pair and the exhaustive evaluation of the product space, i.e. 2, 057 × 6, 112. We introduce the PRW-mini to reduce the evaluation time while maintaining the difficulty. PRW-mini tests 30 query images against the whole gallery. The 30 probes selected for PRW-mini are given in prwmini_query_info.txt 

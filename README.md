@@ -17,7 +17,7 @@ Person search has recently gained attention as the novel task of finding a perso
 
 ![Query Guided Person Search](https://github.com/munjalbharti/Query-guided-End-to-End-Person-Search/blob/master/Network.JPG)
 
-## Results
+## Results on CUHK-SYSU
  Method @Gallery100        | mAP           | top-1  |
 | -------------            |:-------------:| -----: |
 | OIM                      | 75.5          | 78.7   |

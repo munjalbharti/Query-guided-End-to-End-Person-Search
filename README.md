@@ -37,7 +37,7 @@ The task of query dependent person search encompasses complexity of O(MN) during
 ## PRW Evaluation 
 We evaluate on PRW with the same evaluation script (prw_test.py) as adopted by Mask-G [2]. This evaluation is motivated from CUHK-SYSU https://github.com/ShuangLI59/person_search/tree/master/lib/datasets. Each probe image is compared to all gallery images except the probe image itself. We also provide here the script for PRW-mini evaluation (prwmini_test.py). If you are using this evaluation for PRW please cite:
 
-[1] B. Munjal, S. Amin, F. Tombari, F. Galasso. Query-guided End-to-End Person Search. In The IEEE Conference on Computer Vision and         Pattern Recognition (CVPR), 2019 
+[1] B. Munjal, S. Amin, F. Tombari, F. Galasso. Query-guided End-to-End Person Search. In The IEEE Conference on Computer Vision and     Pattern Recognition (CVPR), 2019 
    
 [2] D. Chen, S. Zhang, W. Ouyang, J. Yang, and Y. Tai. Person search via a mask-guided two-stream cnn model. In The European Conference     on Computer Vision (ECCV), 2018
 

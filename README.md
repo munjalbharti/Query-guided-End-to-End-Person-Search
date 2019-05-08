@@ -20,7 +20,7 @@ Person search has recently gained attention as the novel task of finding a perso
 ## Results on CUHK-SYSU
  Method @Gallery100        | mAP           | top-1  |
 | -------------            |:-------------:| -----: |
-| Mask-G                   | 83.0          |   83.7  |
+| Mask-G[2]                   | 83.0          |   83.7  |
 | QEEPS                    | 88.9          |   89.1  |
 
 ## PRW-mini
@@ -30,28 +30,28 @@ The task of query dependent person search encompasses complexity of O(MN) during
 ## PRW Evaluation 
 We evaluate on PRW and PRW-mini with the same script as adopted by Mask-G (prw_test.py and prwmini_test.py respectively). This evaluation is motivated from CUHK-SYSU  https://github.com/ShuangLI59/person_search/tree/master/lib/datasets. Each probe image is compared to whole gallery except the probe image itself.  If you are using this evaluation for PRW please cite:
 
-@inproceedings{munjal2019cvpr,
+[1] @inproceedings{munjal2019cvpr,
 author = {Munjal, Bharti and Amin, Sikandar and Tombari, Federico and Galasso, Fabio},
 title = {Query-guided End-to-End Person Search},
 booktitle = {The IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
 year = {2019}
 }
 
-@inproceedings{Chen_2018_ECCV,
+[2] @inproceedings{Chen_2018_ECCV,
 author = {Chen, Di and Zhang, Shanshan and Ouyang, Wanli and Yang, Jian and Tai, Ying},
 title = {Person Search via A Mask-guided Two-stream CNN Model},
 booktitle = {The European Conference on Computer Vision (ECCV)},
 year = {2018}
 }
 
-@inproceedings{xiao2017joint,
+[3] @inproceedings{xiao2017joint,
   title={Joint detection and identification feature learning for person search},
   author={Xiao, Tong and Li, Shuang and Wang, Bochao and Lin, Liang and Wang, Xiaogang},
   booktitle={The IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
   year={2017}
 }
 
-@inproceedings{zheng2016prw,
+[4] @inproceedings{zheng2016prw,
 author = {Zheng, Liang and Zhang, Hengheng and Sun, Shaoyan and Chandraker, Manmohan and Yang, Yi and Tian, Qi},
 title = {Person Re-Identification in the Wild},
 booktitle = {The IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},

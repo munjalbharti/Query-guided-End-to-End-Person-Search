@@ -20,7 +20,6 @@ Person search has recently gained attention as the novel task of finding a perso
 ## Results on CUHK-SYSU
  Method @Gallery100        | mAP           | top-1  |
 | -------------            |:-------------:| -----: |
-| OIM                      | 75.5          | 78.7   |
 | Mask-G                   | 83.0          |   83.7  |
 | QEEPS                    | 88.9          |   89.1  |
 

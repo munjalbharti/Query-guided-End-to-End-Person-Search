@@ -4,5 +4,7 @@ detections.pkl contains gallery detections <br />
 gfeatures.pkl contains gallery features <br />
 pfeatures.pkl contains probe features <br />
 
+Note that the probe and gallery features are not normalized. 
+
 
 

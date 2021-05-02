@@ -52,7 +52,7 @@ We evaluate on PRW with the same evaluation script (prw_test.py) as adopted by M
 
 [4] L. Zheng, H. Zhang, S. Sun, M. Chandraker, Y. Yang, and Q. Tian. Person re-identification in the wild. In The IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2017.
 
-
+<!--- 
 ## RPN vs QRPN Proposals
 Here, we compare the output region proposals of RPN and QRPN. Given a query-gallery image pair, in the first column we show the query images with the person bounding boxes (in yellow). In the second and third columns we illustrate the top 10 region proposals in the gallery image by RPN and QRPN, respectively.
 
@@ -68,6 +68,6 @@ In the following examples, we highlight the effectiveness of QRPN in some challe
 In the following two examples, we see that RPN fails to capture the target persons in its top 10 proposals, due to scale and contrast challenges, respectively. However, QRPN is able retrieve multiple proposals for them, demonstrating the advantage of query-guided search.
 
 ![RPN Vs QRPN](https://github.com/munjalbharti/Query-guided-End-to-End-Person-Search/blob/master/RPNVsQRPNFig3.JPG)
-
+--->
 
 

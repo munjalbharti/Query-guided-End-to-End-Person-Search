@@ -58,16 +58,12 @@ Here, we compare the output region proposals of RPN and QRPN. Given a query-gall
 
 QRPN utilizes the query person features to rank the relevant person proposals higher than the irrelevant ones. Therefore, in the following figure, we notice the output proposals of QRPN are concentrated largely around the target person. On the other hand, the output proposals of the RPN are distributed over different people and also the background, which results in false positives for the person search task.
 
-
-
 ![RPN Vs QRPN](https://github.com/munjalbharti/Query-guided-End-to-End-Person-Search/blob/master/RPNVsQRPN.png)
 
 Notice in the second row, the query persons are wearing black clothes, which urges QRPN to select all people wearing black in the gallery images. This phenomenon can also be observed in the third row, where QRPN gives proposals on people wearing a similar shade clothes as the target person. These results indicate the high importance of color features in the QRPN decisions. 
 
-![RPN Vs QRPN](https://github.com/munjalbharti/Query-guided-End-to-End-Person-Search/blob/master/RPNVsQRPNFig2.JPG)
 Also notice in the last row that RPN fails to capture the target persons in its top 10 proposals, due to scale and contrast challenges. However, QRPN is able retrieve multiple proposals for them, demonstrating the advantage of query-guided search.
 
-![RPN Vs QRPN](https://github.com/munjalbharti/Query-guided-End-to-End-Person-Search/blob/master/RPNVsQRPNFig3.JPG)
 
 
 

@@ -60,7 +60,7 @@ QRPN utilizes the query person features to rank the relevant person proposals hi
 
 
 
-![RPN Vs QRPN](https://github.com/munjalbharti/Query-guided-End-to-End-Person-Search/blob/master/QRPN_Examples.jpg)
+![RPN Vs QRPN](https://github.com/munjalbharti/Query-guided-End-to-End-Person-Search/blob/master/RPNVsQRPN.png)
 
 In the following examples, we highlight the effectiveness of QRPN in some challenging examples. For instance, in first and second rows, the query persons are wearing black clothes, which urges QRPN to select all people wearing black in the gallery images. Similarly, in the third row the QRPN focuses on two people wearing dark suits. This phenomenon can also be observed in the fourth row, where QRPN gives a few proposals on the persons wearing a similar shade of color as the target person. These results indicate the high importance of color features in the QRPN decisions. However, note that, in all these examples, the QRPN proposals are highly concentrated on the target person, unlike the RPN proposals.
 
